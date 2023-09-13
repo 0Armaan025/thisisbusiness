@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+.loginBtn {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 17px;
+    padding-right: 17px;
+    outline: none;
+    margin-top: 2px;
+    color: black;
+    font-family: 'Poppins';
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+.loginBtn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}

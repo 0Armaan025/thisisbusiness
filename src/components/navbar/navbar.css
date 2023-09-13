@@ -1,0 +1,30 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sogdian&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.spacer {
+    margin-right: 2rem;
+}
+.navbar {
+    margin-top: 10px;
+}
+.smallSpacer {
+    margin-right: 2.5rem;
+}
+
+.bigSpacer {
+    margin-right: 6rem;
+}
+
+.dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-family: 'Noto Sans Sogdian';
+    font-weight: bold;
+}
