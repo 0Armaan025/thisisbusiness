@@ -10,7 +10,7 @@ function NavBar() {
     <div className="spacer"></div>
     <div className="spacer"></div>
     <div className="spacer"></div>
-    <a className="navbar-brand" href="#">ThisIsBusiness</a>
+    <a className="navbar-brand" href="#">ScamBusiness</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
