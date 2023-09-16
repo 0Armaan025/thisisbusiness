@@ -4,12 +4,15 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 .spacer {
     margin-right: 2rem;
 }
 .navbar {
     margin-top: 10px;
+    /* background-color: blue; */
+    box-shadow: 1px .3px .05px 0px rgba(0, 0, 0, 0.75);
 }
 .smallSpacer {
     margin-right: 2.5rem;
@@ -27,4 +30,8 @@
     font-size: 24px;
     font-family: 'Noto Sans Sogdian';
     font-weight: bold;
+}
+
+.myWrapper {
+    background-color: blue;
 }

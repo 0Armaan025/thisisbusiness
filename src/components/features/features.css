@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.feature1 {
+    background-color: blue;
+    width: 280px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(110, 0, 206, 0.75);
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    /* background-color: blue; */
+}
+
+.feature1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 4px 4px 10px 0px rgba(110, 0, 206, 0.75);
+}
+
+.feature2 {
+    background-color: purple;
+    width: 280px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px 0px rgba(255, 40, 40, 0.75);
+    /* background-color: blue; */
+}
+
+.feature2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 7px 4px 10px 0px rgba(255, 40, 40, 0.75);
+}
+
+.featureHeadingText {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    /* text-align: center; */
+
+}
+
+.featureParaText1 {
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+    .featureParaText2 {
+        font-size: 15px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        color: white;
+        background-color: purple;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        }
+    
+
+.featureHeadingText1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+}
+.featureHeadingText2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+}
+
+.featureImage {
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    justify-content: center;
+}
+
+.featuresHeading {
+    height: 40px;
+    font-family: 'Mooli', sans-serif;
+    margin-bottom: 20px;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

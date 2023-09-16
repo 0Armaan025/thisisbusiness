@@ -1,6 +1,7 @@
 import React from 'react';
 import './middlepart.css';
 import LearnMoreBtn from './components/learn_more_btn/learnMoreBtn';
+import Features from '../features/Features';
 
 const MiddlePart = () => {
   return (
@@ -10,7 +11,7 @@ const MiddlePart = () => {
      <div className="middlePart">
         <img src="https://media.istockphoto.com/id/1262582734/vector/happy-girl-studying-with-books-student-girl-at-the-desk-writing-for-her-homework-back-to.jpg?s=612x612&w=0&k=20&c=AiXV4EkEfWsgnIILEkilYyIDVzhefIFckEOhP6wMf50=" className='leftImage'/>
 
-        <div className="textDiv">
+        <div className="middleTextDiv">
             <h1 className='headingText'>Empower, Share and become better!</h1>
             
             <h4 className="paragraphText">Empowerment is the catalyst for personal growth. By sharing our knowledge, experiences, and resources, we not only uplift ourselves but also contribute to the betterment of others. Together, we can create a brighter future, fostering a community of continuous improvement and support.</h4>
@@ -25,6 +26,10 @@ const MiddlePart = () => {
         <br/>
         <center>
         <LearnMoreBtn/></center>
+        <br/>
+        
+        <Features/>
+        
     </>
   )
 }

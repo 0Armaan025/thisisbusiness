@@ -5,7 +5,8 @@ import LoginButton from "../login_button/LoginButton";
 function NavBar() {
   return (
     <>
-    <nav className="navbar fixed-top navbar-expand-lg bg">
+    <div className="myWrapper">
+    <nav className="navbar fixed-top navbar-expand-lg" >
   <div className="container-fluid">
     <div className="spacer"></div>
     <div className="spacer"></div>
@@ -52,6 +53,7 @@ function NavBar() {
   </div>
 </nav>
 <hr/>
+</div>
 </>
   );
 }
