@@ -1,5 +1,6 @@
 import React from 'react';
 import './pricing.css';
+import BuyButton from './components/buy_button/BuyButton';
 
 const PricingCard = ({ plan, price, features }) => (
   <div className="pricing-card1">
@@ -15,11 +16,15 @@ const PricingCard = ({ plan, price, features }) => (
         </li>
       ))}
     </ul>
+    <br/>
+    <br/>
+    <BuyButton/>
   </div>
 );
 
 const Pricing = () => (
   <>
+  <div className="pricingContainer" id="pricing">
   <center><h1 className='pricingHeading'>Our Pricing</h1></center>
   <div className="pricing-card-container">
     <PricingCard
@@ -57,6 +62,7 @@ const Pricing = () => (
     />
   </div>
   <br/>
+  </div>
   </>
 );
 

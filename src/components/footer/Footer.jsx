@@ -8,24 +8,26 @@ function Footer() {
         <div className="footer-content">
           <h3>Contact Us</h3>
           <p>
-            Address: 123 Printing Street, Cityville, State, ZIP Code
+            Address: Jagraon, NEVER ASK ME, 142026
             <br />
-            Phone: (123) 456-7890
+            Phone: +91 94172 01633
             <br />
-            Email: info@yourcompany.com
+            Email: jagjit@gmail.com
           </p>
         </div>
+        <br/>
         <div className="footer-content">
+          <br/>
           <h3>Links</h3>
           <ul className="footer-links">
             <li>
               <a className='aLink' href="/">Home</a>
             </li>
             <li>
-              <a className='aLink' href="/services">Services</a>
+              <a className='aLink' href="/services">Features</a>
             </li>
             <li>
-              <a className='aLink' href="/portfolio">Portfolio</a>
+              <a className='aLink' href="/portfolio">About Us</a>
             </li>
             <li>
               <a className='aLink' href="/contact">Contact</a>

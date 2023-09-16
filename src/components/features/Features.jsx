@@ -4,7 +4,7 @@ import './features.css';
 const Features = () => {
   return (
     <>
-      <div className="featuresDiv">
+      <div className="featuresDiv" id="features">
         <center>
           <h2 className="featuresHeading">
 

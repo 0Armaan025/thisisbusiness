@@ -4,7 +4,7 @@
     
     align-items: center;
     justify-content: center;
-    background-color: #333;
+    background-color: #d7bebe;
     color: black;
     padding: 40px 0;
     text-align: center;
@@ -22,7 +22,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    /* background-color: blue; */
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;

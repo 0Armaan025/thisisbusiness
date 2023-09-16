@@ -26,11 +26,11 @@ function NavBar() {
         </li>
         <div className="smallSpacer"></div>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          <a className="nav-link" href="#features">Features</a>
         </li>
         <div className="smallSpacer"></div>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="#pricing">Pricing</a>
         </li>
         <div className="smallSpacer"></div>
         <li className="nav-item dropdown">
