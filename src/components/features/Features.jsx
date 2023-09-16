@@ -37,6 +37,17 @@ const Features = () => {
         <br/>
 
           </div>
+          <div className="feature3">
+            <br/>
+             <img src="https://images.unsplash.com/photo-1644089481544-6f7910765691?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8M2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" className='featureImage' />
+
+             <br/>
+              
+             <h2 className='featureHeadingText3'>Heading Here</h2>
+             <h4 className='featureParaText3'>Aliqua proident nostrud incididunt do qui occaecat eu id Lorem irure. Veniam minim proident est velit excepteur enim quis cillum. Nisi ex excepteur eiusmod consequat elit in quis esse nostrud irure labore. Id quis adipisicing ad aliqua. Sint eu mollit fugiat aute elit velit labore laborum. Dolor do nostrud occaecat ipsum commodo commodo excepteur.</h4>
+        <br/>
+
+          </div>
 
         </div>
         

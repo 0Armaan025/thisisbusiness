@@ -48,6 +48,27 @@
     box-shadow: 7px 4px 10px 0px rgba(255, 40, 40, 0.75);
 }
 
+.feature3 {
+    background-color: rgb(255, 53, 53);
+    width: 280px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px 0px rgba(47, 203, 0, 0.75);
+    /* background-color: blue; */
+}
+
+.feature3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 7px 4px 10px 0px rgba(18, 219, 0, 0.75);
+}
+
+
 .featureHeadingText {
     font-size: 20px;
     font-family: sans-serif;
@@ -55,6 +76,8 @@
     /* text-align: center; */
 
 }
+
+
 
 .featureParaText1 {
     font-size: 15px;
@@ -66,6 +89,17 @@
     margin-right: 20px;
     margin-left: 20px;
     }
+
+    .featureParaText3 {
+        font-size: 15px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(255, 53, 53);
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        }
 
     .featureParaText2 {
         font-size: 15px;
@@ -85,6 +119,14 @@
     color: white;
     font-weight: bold;
     background-color: blue;
+}
+
+.featureHeadingText3 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 53, 53);
 }
 .featureHeadingText2 {
     font-size: 20px;

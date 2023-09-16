@@ -2,6 +2,7 @@ import React from 'react';
 import './middlepart.css';
 import LearnMoreBtn from './components/learn_more_btn/learnMoreBtn';
 import Features from '../features/Features';
+import Pricing from '../pricing/Pricing';
 
 const MiddlePart = () => {
   return (
@@ -29,7 +30,10 @@ const MiddlePart = () => {
         <br/>
         
         <Features/>
-        
+        <br/>
+        <br/>
+        <br/>
+        <Pricing/>
     </>
   )
 }

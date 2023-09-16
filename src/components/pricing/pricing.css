@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.pricing-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pricingHeading {
+    font-family: 'Kanit', sans-serif;
+}
+
+.myHr {
+    color: white;
+    background: white;
+    height: 2px;
+}
+
+.pricing-card h2 h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+ 
+}
+
+.planHeading {
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    padding: 10px;
+    background: none;
+}
+
+li {
+    background: none;
+    padding: 2px;
+    color: white;
+    margin: 2px;
+}
+
+.planPrice {
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+
+.pricing-card1 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    padding: 20px;
+    width: 200px;
+    background: linear-gradient(to right, #ff8c8c, #ff3c3c); /* white to blue gradient */
+    transition: transform .2s; /* animation */
+}
+
+.pricing-card2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    padding: 20px;
+    width: 200px;
+    background: linear-gradient(to right, #ff2929, #5e0000); /* white to blue gradient */
+    transition: transform .2s; /* animation */
+}
+
+.pricing-card3 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    padding: 20px;
+    width: 200px;
+    background: linear-gradient(to right, #ff2929, #5e0000); /* white to blue gradient */
+    transition: transform .2s; /* animation */
+}
+
+
+.pricing-card1:hover {
+    transform: scale(1.1); /* zoom in effect on hover */
+}
+
+.pricing-card2:hover {
+    transform: scale(1.1); /* zoom in effect on hover */
+}
+.pricing-card3:hover {
+    transform: scale(1.1); /* zoom in effect on hover */
+}
+
+.pricing-card1 h2 {
+    text-align: center;
+    color: #6c757d; /* dark gray */
+}
+
+.pricing-card2 h2 {
+    text-align: center;
+    color: #6c757d; /* dark gray */
+}
+
+.pricing-card3 h2 {
+    text-align: center;
+    color: #6c757d; /* dark gray */
+}
+
+.pricing-card1 h1 {
+    text-align: center;
+    color: #007bff; /* blue */
+}
+
+.pricing-card2 h1 {
+    text-align: center;
+    color: #007bff; /* blue */
+}
+
+.pricing-card3 h1 {
+    text-align: center;
+    color: #007bff; /* blue */
+}
+
+.pricing-card1 ul {
+    list-style-type: none;
+    color: #343a40; /* black */
+}
+
+.pricing-card2 ul {
+    list-style-type: none;
+    color: #343a40; /* black */
+}
+
+.pricing-card3 ul {
+    list-style-type: none;
+    color: #343a40; /* black */
+}
+
