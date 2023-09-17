@@ -3,6 +3,9 @@ import './pricing.css';
 import BuyButton from './components/buy_button/BuyButton';
 
 const PricingCard = ({ plan, price, features }) => (
+
+
+  
   <div className="pricing-card1">
     <h2 className='planHeading' style={{color: "white",fontFamily: "font-family: 'Nunito', sans-serif;",fontSize: "24px"}}>{plan}</h2>
     <br/>
