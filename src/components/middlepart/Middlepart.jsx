@@ -4,10 +4,15 @@ import LearnMoreBtn from './components/learn_more_btn/learnMoreBtn';
 import Features from '../features/Features';
 import Pricing from '../pricing/Pricing';
 
+
+
 const MiddlePart = () => {
   return (
     <>
     <center>
+
+      
+
         <div className="wrapper">
      <div className="middlePart">
         <img src="https://media.istockphoto.com/id/1262582734/vector/happy-girl-studying-with-books-student-girl-at-the-desk-writing-for-her-homework-back-to.jpg?s=612x612&w=0&k=20&c=AiXV4EkEfWsgnIILEkilYyIDVzhefIFckEOhP6wMf50=" className='leftImage'/>

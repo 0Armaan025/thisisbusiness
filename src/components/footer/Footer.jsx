@@ -21,13 +21,13 @@ function Footer() {
           <h3>Links</h3>
           <ul className="footer-links">
             <li>
-              <a className='aLink' href="/">Home</a>
+              <a className='aLink' href="">Home</a>
             </li>
             <li>
-              <a className='aLink' href="/services">Features</a>
+              <a className='aLink' href="#features">Features</a>
             </li>
             <li>
-              <a className='aLink' href="/portfolio">About Us</a>
+              <a className='aLink' href="#pricing">Pricing</a>
             </li>
             <li>
               <a className='aLink' href="/contact">Contact</a>
