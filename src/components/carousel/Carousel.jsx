@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import ReactSimplyCarousel from 'react-simply-carousel';
 import './carousel.css';
+import LOGO from '../../assets/logo.png';
 
 function ReactSimplyCarouselExample() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
   return (
     <>
+    <center>
+    <img src={LOGO} height="220px" width="210px" style={{marginTop: "120px"}}/></center>
     <div className="carousel">
       <ReactSimplyCarousel
       className="carousel"
