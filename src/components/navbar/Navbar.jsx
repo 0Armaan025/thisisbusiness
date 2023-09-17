@@ -1,16 +1,18 @@
 import React from "react";
 import './navbar.css';
 import LoginButton from "../login_button/LoginButton";
+import LOGO from '../../assets/LOGO.png';
 
 function NavBar() {
   return (
     <>
     <div className="myWrapper">
-    <nav className="navbar fixed-top navbar-expand-lg" >
+    <nav className="navbar fixed-top navbar-expand-lg" id="navbar">
   <div className="container-fluid">
     <div className="spacer"></div>
     <div className="spacer"></div>
     <div className="spacer"></div>
+    <img src={LOGO} alt="scamBusiness"  height="40px" width="40px" style={{marginRight: "10px"}}/>
     <a className="navbar-brand" href="#">ScamBusiness</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
